@@ -2,7 +2,7 @@
 
 function setCost(id, cost) {
 
-    const bill = document.getElementById(id).innerText = cost;;
+    const bill = document.getElementById(id).innerText = cost;
 }
 
 // Function for getting the individual bill;

@@ -22,40 +22,41 @@
 
     <main>
 
-        <div class="container-fluid row justify-content-center mx-auto border-bottom">
+        <div class="container row justify-content-center mx-auto border-bottom">
 
-            <div class="image p-2 col-6">
+            <div class="image p-2 col-12 col-lg-6">
 
                 <img class='img-fluid' src="images/mac.png" alt="">
             </div>
 
             <!-- Customize Options -->
 
-            <div class="customization p-2 col-6">
+            <div class="customization p-2 col-12 col-lg-6">
 
                 <div class="customize">
 
 
-                    <h1>Customize your blue 24 inch Mac with Apple M1 Chip</h1>
+                    <h1>Customize your Blue 24 inch Mac with Apple M1 Chip</h1>
 
-                    <p class='lead'>Apple M1 chip with 8 core CPU and 4 performance cores and 4 efficiency cores, 7 core
+                    <p class='lead mb-5 mb-lg-0'>Apple M1 chip with 8 core CPU and 4 performance cores and 4 efficiency
+                        cores, 7 core
                         GPU
                         and 16-core Neural Engine, 8 gigs of unified memory, 256 gigs of SSD with two thunderbolt/USB-4
                         and
                         with apple magic mouse and keyboard. </p>
 
-                    <h5>Memory</h5>
+                    <h5 class='text-primary mt-3'>Memory</h5>
 
                     <button id='8gb-btn' class="btn btn-outline-secondary">8 GB unified memory.</button>
                     <button id='16gb-btn' class="btn btn-outline-secondary">16 GB unified memory.</button>
 
-                    <h5>Storage</h5>
+                    <h5 class='text-primary mt-3'>Storage</h5>
 
                     <button id='256gb-btn' class="btn btn-outline-secondary">256GB SSD</button>
                     <button id="512gb-btn" class="btn btn-outline-secondary">512GB SSD</button>
                     <button id='1tb-btn' class="btn btn-outline-secondary">1TB SSD</button>
 
-                    <h5>Delivery Option</h5>
+                    <h5 class='text-primary mt-3'>Delivery Option</h5>
 
                     <button id="free-delivery" class="btn btn-outline-secondary">Aug 25, Free Prime Delivery</button>
                     <button id='express-delivery' class="btn btn-outline-secondary">Aug 21, Delivery Charge $20</button>
@@ -69,7 +70,7 @@
                     <div class="d-flex justify-content-between border-bottom">
 
                         <div class="">
-                            <h5>Best Price</h5>
+                            <h5>Base Price</h5>
                         </div>
 
                         <div class="">
@@ -114,7 +115,7 @@
 
                     </div>
 
-                    <div class="d-flex justify-content-between border-bottom">
+                    <div class="d-flex justify-content-between border-bottom py-2">
 
                         <div class="">
                             <h5>Total</h5>
@@ -134,7 +135,7 @@
 
                     <input id='promo-input' type="text" placeholder='Enter Promo Code'>
 
-                    <button id='promo-btn' class="btn btn-danger">
+                    <button id='promo-btn' class="btn btn-info">
                         Apply
                     </button>
                 </div>
@@ -145,7 +146,7 @@
 
         <!-- Total Amount Section -->
 
-        <h2 class="text-center">Total: $
+        <h2 class="text-center text-danger">Total: $
             <span id='bottom-total'>1299</span>
         </h2>
 
